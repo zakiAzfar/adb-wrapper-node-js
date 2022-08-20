@@ -19,7 +19,7 @@
     "format": "prettier --write .",
     "lint": "eslint . --fix",
     "prepare": "husky install"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MrSharpp/adb-wrapper-node-js.git"
