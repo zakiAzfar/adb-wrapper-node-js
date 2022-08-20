@@ -24,9 +24,7 @@ const execCmd = (cmd: string | string[]): Promise<string> => {
       );
     }
     currentDevice == "" ? "" : (cmd as string[]).push(`-s ${currentDevice}`);
-
     console.log(explicitAdbPath);
-
     const cp = spawn("adb", cmd as string[], {
       env: {
         ...process.env,
