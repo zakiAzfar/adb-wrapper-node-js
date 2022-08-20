@@ -53,8 +53,8 @@
       "pre-commit": "lint-staged"
     }
   },
-  
+
   "lint-staged": {
-    "src/**/*.{js,ts}": ["prettier --write", "eslint . --fix"]
+    "src/**/*.{js,ts}": ["npm run format"]
   }
 }
